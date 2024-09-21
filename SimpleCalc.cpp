@@ -1,7 +1,3 @@
-#include <iostream>
-using namespace std;
-
-void calculator() {
     double num1, num2;
     char op;
 
@@ -32,9 +28,3 @@ void calculator() {
             cout << "Error: Invalid operator" << endl;
             break;
     }
-}
-
-int main() {
-    calculator();
-    return 0;
-}
